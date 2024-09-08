@@ -52,7 +52,7 @@ public class Main {
             System.out.println("学生の番号を選択してください:");
             int studentNumber = scanner.nextInt();
             scanner.nextLine();
-            studentList.remove(studentNumber + 1);
+            studentList.remove(studentNumber - 1);
           }
           break;
 
